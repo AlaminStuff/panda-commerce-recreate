@@ -28,4 +28,46 @@
     color: #fff;
     text-decoration: none;
   }
- 
+
+.cat1{
+    background-color: aqua;
+}
+.cat2{
+    background-color: darkmagenta;
+}
+.cat3{
+    background-color: violet;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+}
+.cat1:hover{
+    box-shadow: 5px 5px 10px #1e1c86;
+} 
+.cat2:hover{
+    box-shadow: 5px 5px 10px #1e1c86;
+} 
+.cat3:hover{
+    box-shadow: 5px 5px 10px #1e1c86;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    background-image:  linear-gradient(to right, #34b35a46 0%, #14bba53d  51%, #1f3f2938  100%);
+    box-shadow: 5px 5px 10px;
+}
+.card-footer{
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+}
+footer{
+    text-align: center;
+}
